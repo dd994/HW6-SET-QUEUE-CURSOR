@@ -6,7 +6,7 @@ import java.util.TreeSet;
 public class Main{
     public static void main(String[] args) {
 
-        Set<Integer> numbers = new TreeSet<>(new ownCompare());
+        Set<Integer> numbers = new TreeSet<>(new OwnCompare());
         numbers.add(2);
         numbers.add(5);
         numbers.add(31);

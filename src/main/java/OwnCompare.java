@@ -2,7 +2,7 @@ package main.java;
 
 import java.util.Comparator;
 
-public class ownCompare implements Comparator<Integer> {
+public class OwnCompare implements Comparator<Integer> {
     @Override
     public int compare(Integer o1, Integer o2) {
 
@@ -13,7 +13,7 @@ public class ownCompare implements Comparator<Integer> {
             return -1;
         } else if (o2 % 2 == 0) {
             return 1;
-        }
-        return o1 - o2;
+        } else
+            return o1 - o2;
     }
 }
